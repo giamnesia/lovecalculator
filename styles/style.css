@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body,
+html {
+  overflow: hidden;
+}
+
+.main .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  margin: 20px 35px 20px 35px;
+  border-bottom: 2px solid #141414;
+}
+
+.main .nav .logo {
+  font-size: 30px;
+}
+
+.main .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .hero form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  place-items: center;
+}
+
+.main .hero form input {
+  padding: 10px;
+  outline: none;
+  margin: 10px;
+  width: 250px;
+  border: 1px solid #141414;
+}
+
+.main .hero form button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.main .hero .svg {
+  width: 280px;
+}
+
+.main .spans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.main .spans .names {
+  padding: 10px;
+}
+
+.main .spans .names span {
+  font-size: 20px;
+}
+
+.main .spans .percentage,
+.main .spans .result {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+  padding: 5px;
+  width: 100%;
+}
+
+footer p,
+footer a {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .main .nav .logo {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
