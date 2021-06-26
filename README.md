@@ -2,6 +2,6 @@
 
 >HTML, SCSS, JavaScript, API
 
-Thanks to <a href= ' https://rapidapi.com/user/ajith' target='_blank > Ajith Joseph </a>
+Thanks to [Ajith Joseph] (https://rapidapi.com/user/ajith)
 
-Api Link= https://rapidapi.com/ajith/api/love-calculator/
+Api Link => https://rapidapi.com/ajith/api/love-calculator/
