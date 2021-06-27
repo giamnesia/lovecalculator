@@ -19,8 +19,10 @@ $blackcolor: rgb(20, 20, 20);
 body,
 html {
   overflow: hidden;
+  height: 100%;
 }
 .main {
+  min-height: 100%;
   .nav {
     @include center(row);
     padding: 5px;
@@ -78,8 +80,7 @@ html {
   }
 }
 footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   background-color: $redcolor;
   padding: 5px;
   width: 100%;
