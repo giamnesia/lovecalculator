@@ -114,10 +114,8 @@ html {
 
 .main .spans .names {
   padding: 10px;
-}
-
-.main .spans .names span {
   font-size: 20px;
+  text-align: center;
 }
 
 .main .spans .percentage,
