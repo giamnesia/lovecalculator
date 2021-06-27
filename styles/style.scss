@@ -22,6 +22,7 @@ html {
   height: 100%;
 }
 .main {
+  margin-bottom: -80px;
   min-height: 100%;
   .nav {
     @include center(row);
@@ -38,7 +39,6 @@ html {
       display: grid;
       grid-template-rows: 1fr;
       place-items: center;
-
       input {
         padding: 10px;
         outline: none;
@@ -93,7 +93,6 @@ footer {
     padding: 5px;
   }
 }
-
 @media (max-width: 600px) {
   .main {
     .nav {
